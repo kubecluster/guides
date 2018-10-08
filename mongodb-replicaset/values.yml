@@ -84,10 +84,10 @@ persistentVolume:
   ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
   ##   GKE, AWS & OpenStack)
   ##
-  storageClass: "local-storage"
+  storageClass: "openebs-mongodb"
   accessModes:
     - ReadWriteOnce
-  size: 25Gi
+  size: 5Gi
   annotations: {}
 
 # Annotations to be added to the service
